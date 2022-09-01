@@ -1,4 +1,4 @@
-# Node.js (JS/TS) project template 
+# Node.js (JS/TS) project template
 
 ### Includes `husky` pre-commit hook that runs `npm test`
 
@@ -12,4 +12,10 @@ npm install
 
 ```bash
 npm test
+```
+
+### Format code with prettier
+
+```bash
+npm format
 ```
