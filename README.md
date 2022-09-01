@@ -1,4 +1,4 @@
-# Node.js project template JS / TS
+# Node.js (JS/TS) project template 
 
 ### Includes `husky` pre-commit hook that runs `npm test`
 
