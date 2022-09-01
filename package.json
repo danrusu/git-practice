@@ -1,0 +1,24 @@
+{
+  "name": "git-practice",
+  "version": "1.0.0",
+  "description": "practice git",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.spec.{js,ts}",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrusu/git-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danrusu/git-practice/issues"
+  },
+  "homepage": "https://github.com/danrusu/git-practice#readme",
+  "devDependencies": {
+    "husky": "^8.0.1"
+  }
+}
