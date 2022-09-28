@@ -1,7 +1,7 @@
 {
-  "name": "git-practice",
+  "name": "node-template",
   "version": "1.0.0",
-  "description": "practice git",
+  "description": "template for node JS/TS projects",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write .",
