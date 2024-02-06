@@ -1,11 +1,32 @@
 {
+  "include": ["src"],
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "outDir": "dist",
+
+    /* Transpiling options */
+    "target": "ES2022",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "resolveJsonModule": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "downlevelIteration": true,
-    "resolveJsonModule": true
+
+    /* Strictness */
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* For code running in the DOM */
+    "lib": ["ES2022"], //["DOM", "DOM.Iterable"]
   }
 }

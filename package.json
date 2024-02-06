@@ -1,9 +1,10 @@
 {
   "name": "node-template",
   "version": "1.0.0",
-  "description": "template for node JS/TS projects",
+  "description": "Template for node JS/TS projects",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky install",
@@ -21,11 +22,14 @@
   },
   "homepage": "https://github.com/danrusu/git-practice#readme",
   "devDependencies": {
+    "@types/chai": "^4.3.11",
     "@types/mocha": "^9.1.1",
+    "@types/node": "^20.11.16",
     "chai": "^4.3.6",
     "husky": "^8.0.1",
     "mocha": "^10.0.0",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1"
-  }
+  },
+  "dependencies": {}
 }
