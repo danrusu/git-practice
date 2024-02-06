@@ -1,11 +1,11 @@
-export default class Dummy{
+export default class Dummy {
   private message: string;
 
-  constructor(message: string){
+  constructor(message: string) {
     this.message = message;
   }
 
-  getMessage(){
+  getMessage() {
     return this.message;
   }
 }
