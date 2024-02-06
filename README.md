@@ -16,7 +16,7 @@ npm install
 npm test
 ```
 
-### Fromat code
+### Format code
 
 ```bash
 npm run format
